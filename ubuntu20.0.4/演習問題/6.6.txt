@@ -1,0 +1,40 @@
+6-1
+文字列に追加したい文字を、バックスラッシュに続けて書くこと
+
+6-2
+\n　改行
+\t　タブ
+
+6-3
+raw文字列で表す(文字の前にrを付ける)
+
+6-4
+バックスラッシュがついているから
+
+6-5
+複数行文字列を使う
+(3個のシングルクォートかダブルクォートでくくる)
+
+6-6
+'Hello world!'[1]　'e'
+'Hello world!'[0:5]　'Hello'
+'Hello world!'[:5]　'Hello'
+'Hello world!'[3:]　'lo world!'
+
+6-7
+'Hello'.upper()　'HELLO
+'Hello'.upper().isupper()　True
+'Hello'.upper().lower()　'hello'
+
+6-8
+'Remember, remember, the fifth of November.'.split()　['Remember,', 'remember,', 'the', 'fifth', 'of', 'November.']
+'-'.join('There can be only one.'.split())　'There-can-be-only-one.'
+
+6-9
+右揃え　rjust()
+左揃え　ljust()
+中央揃え　center()
+
+6-10
+strip()メソッドを使う
+(lstripメソッドは文字列の冒頭、rstripメソッドは文字列の末尾)

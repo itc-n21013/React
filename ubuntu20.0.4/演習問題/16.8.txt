@@ -1,0 +1,27 @@
+16-1
+SMTP、IMAP
+
+16-2
+SMTP('smtp.gmail.com', 587)
+ehlo()
+starttls()
+login()
+
+16-3
+IMAPClient
+login()
+
+16-4
+ALL
+BEFORE
+
+16-5
+imaplib._MAXLINE = 10000000
+
+16-6
+import pyzmail
+
+16-7
+account_SID
+auth_token
+my_twilio_number

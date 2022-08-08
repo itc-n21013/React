@@ -1,0 +1,41 @@
+11-1
+表示、収集、抽出
+
+11-2
+レスポンスオブジェクト
+getを返す
+
+11-3
+raise_for_status
+
+11-4
+status_code
+
+11-5
+ image_file = open(os.path.join('xkcd', os.path.basename(comic_url)), 'wb')
+    for chunk in res.iter_content(100000):
+        image_file.write(chunk)
+
+11-6
+Ctrl-Shift-I
+
+11-7
+Ctrl-Shift-C
+
+11-8
+#main
+
+11-9
+.highlight
+
+11-10
+div div
+
+11-11
+button[value='favorite']
+
+11-12
+spam[0].getText[]
+
+11-13
+spam.attrs

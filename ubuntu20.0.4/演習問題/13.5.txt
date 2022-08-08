@@ -1,0 +1,14 @@
+13-1
+pdf_file_obj
+
+13-2
+rb　wb
+
+13-3
+getPage(4)
+
+13-4
+pdf_reader.numPages
+
+13-5
+pdf_reader_decrypd

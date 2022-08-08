@@ -1,0 +1,13 @@
+9-1
+shutil.copy()…ひとつのファイルをコピー
+shutil.copytree()…フォルダ全体のコピー
+
+9-2
+move関数
+
+9-3
+shutilモジュールのファイル削除関数…フォルダとその中身を削除
+send2trash…ゴミ箱に移動する
+
+9-4
+zipfileメゾット

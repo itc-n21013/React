@@ -1,0 +1,39 @@
+10-1
+assert spam >= 10, 'spamは10以上でなければならない'
+
+10-2
+assert eggs.lower() != bacon.lower(), 'eggsとbaconは違う文字列でなければならない'
+assert eggs.upper() != bacon.upper(), 'eggsとbaconは違う文字列でなければならない'
+
+10-3
+assert False , 'FalseはTrueでなければならない'
+
+10-4
+import logging
+    logging.basicConfig(level=logging.DEBUG,
+        format=' %(asctime)s - %(levelname)s - %(message)s')
+
+10-5
+logging.basicConfig(filename='myProgramLog.txt', level=logging.DEBUG,
+format=' %(asctime)s - %(levelname)s - %(message)s')
+
+10-6
+DEBUG、INFO、WARNING、ERROR、CRITICAL、
+
+10-7
+logging.disable(logging.CRITICAL)
+
+10-8
+logging.disable(logging.CRITICAL)を使うと無効化になり必要なprint()関数を消すことがなくなる
+
+
+10-9
+Step…一時停止
+Over…飛び越し
+Out…飛び出し
+
+10-10
+終了するかブレークポイントに到達するまで
+
+10-11
+pdb.set_trace()

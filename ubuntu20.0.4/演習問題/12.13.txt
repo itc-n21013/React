@@ -1,0 +1,35 @@
+12-1
+ワークブックデータ型Workbookのオブジェクトを返す
+
+12-2
+ワークブックに含まれるシートの名前のリストを返す
+
+12-3
+sheet = wb.get_by_name('sheet1')
+
+12-4
+wb.active
+
+12-5
+['C5'].value
+
+12-6
+sheet['C5'] = "Hello"
+
+12-7
+row column
+
+12-8
+最大列、最大行を返す
+
+12-9
+column_index_from_string
+
+12-10
+get_column_letter
+
+12-11
+['A1':'F1']
+
+12-12
+wb.save['example.xlsx']

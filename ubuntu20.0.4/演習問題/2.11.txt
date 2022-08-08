@@ -1,0 +1,69 @@
+2-1
+真と偽の値。
+True(真)とFalse(偽)
+
+2-2
+and,or,not
+
+2-3
+True and True
+True and False
+False and True
+False and False
+
+True or True
+True or False
+False or True
+False or False
+
+not True
+not False
+
+2-4
+False
+False
+True
+False
+False
+True
+
+2-5
+==(等しい)、!=(等しくない)、<(より小さい)、>(より大きい)、<=(以下)、>=(以上)
+
+2-6
+両辺が等しいかどうか。
+(代入の方は、右辺の値を左辺の変数に代入する)
+
+2-7
+フロー制御分の文脈
+TrueかFalseかによって、何を実行するかを決定する
+
+2-8
+print('eggs')
+print('bacon')
+print('ham')
+
+2-9
+
+2-10
+Ctrl-C
+
+2-11
+即座にwhileループ節から抜け出すか、ループの先頭に戻るか
+
+2-12
+range(10)→0~9までの数字が繰り返される
+range(0,10)→0~9までの範囲を指定できる
+range(0,10,1)→0以上10未満の数字の中で1ずつ増加する
+
+2-13
+ for i in range(1,11):
+     print(i)
+
+ i = 1
+>>> while i <= 10:
+        print(i)
+        i = i + 1
+
+2-14
+importを使って呼ぶ

@@ -1,0 +1,20 @@
+18-1
+マウスカーソルを画面の左上隅に移動する
+
+18-2
+size()
+
+18-3
+position()
+
+18-4
+絶対値、相対値
+
+18-5
+dragTo()
+
+18-8
+screenshot.png
+
+18-9
+pyautogui.PAUSE = 2

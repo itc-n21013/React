@@ -1,0 +1,25 @@
+15-1
+1970年1月1日　0:00　UTC
+
+15-2
+time()関数
+
+15-3
+sleep()関数
+
+15-4
+最も近い整数に丸めた値を返す
+
+15-5
+瞬間と期間
+
+15-6
+thread_obj = threading.Thread(target=take_a_nap)
+thread_obj.start()
+
+15-7
+新しいThreadオブジェクトを生成したら、対象の関数は、その関数の中で定義されたローカル変数だけを使うようにする
+
+15-8
+import subprocess
+subprocess.Popen('usr/bin/gnome-calculator')
